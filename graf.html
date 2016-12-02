@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Responsive viewport for smartphone devices -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>shidaro</title>
+<link href="css/top.css" rel="stylesheet" type="text/css">
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css">
+<link href="css/least.min.css" rel="stylesheet" />
+<script src="js/libs/jquery/2.0.2/jquery.min.js"></script>
+<script src="js/libs/least/least.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $('.least-gallery').least();
+  });
+</script>
+</head>
+<body>
+	<div id="centeredmenu">
+		<ul>
+			<li>
+				<a href="index.html">Classic Art</a>
+			</li>
+			<li class="active"><a href="" class="active"><strong>Картины</strong></a>
+				<ul>
+					<li>
+						<a href="landscape.html">Пейзажи</a>
+					</li>
+					<li>
+						<a href="portrait.html">Портреты</a>
+					</li>
+					<li>
+						<a href="naturmort.html">Натюрморты</a>
+					</li>
+					<li>
+						<a href="graf.html">Графика</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="contacts.html">Контакты</a>
+			</li>
+			<li>
+				<a href="https://vk.com/shidaro">
+					<i class="fa fa-vk" aria-hidden="true" href="1.html"></i>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- Least Gallery -->
+	<section id="least" class>
+	  <!-- Least Gallery: Fullscreen Preview -->
+	  <div class="least-preview"></div>
+	    <!-- Least Gallery: Thumbnails -->
+	    <ul class="least-gallery asd">
+	      <!-- 1th thumbnail -->
+	        <li>
+	          <a href="img/full/leto.jpg" title="Летний день" data-subtitle="60x100 холст, масло" data-caption="Яркий летний день, солнце освещает поле с одуванчиками." >
+	            <img src="img/thumb/leto.jpg" alt="" />
+	          </a>
+	        </li>
+	        <li>
+	          <a href="img/full/osen.jpg" title="Осенний вечер"  data-subtitle="60x100 холст, масло" data-caption="Тропинка к деревне возле леса, светит луна." >
+	            <img src="img/thumb/osen.jpg" alt="" />
+	          </a>
+	        </li>
+	        <li>
+	          <a href="img/full/zima.jpg" title="Зимний пейзаж" data-subtitle="60x100 холст, масло" data-caption="Зимний вечер, на главной улице в деревне гуляет молодая девушка." >
+	            <img src="img/thumb/zima.jpg" alt="" />
+	          </a>
+	        </li>
+	        <li>
+	          <a href="img/full/vesna.jpg" title="Весна" data-subtitle="60x100 холст, масло" data-caption="Весенний пейзаж, лес возле речки, на земле местами лежит снег." >
+	            <img src="img/thumb/vesna.jpg" alt="" />
+	          </a>
+	        </li>
+	    </ul>
+	</section>
+	<!-- Least Gallery end -->
+</body>
+</html>
